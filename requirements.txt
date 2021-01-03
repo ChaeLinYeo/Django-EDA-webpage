@@ -20,6 +20,7 @@ cryptography==2.6.1
 decorator==4.4.2
 defusedxml==0.6.0
 distlib==0.3.1
+dj-database-url==0.5.0
 Django==1.11.29
 entrypoints==0.3
 enum34==1.1.6
@@ -29,6 +30,7 @@ funcsigs==1.0.2
 functools32==3.2.3.post2
 future==0.17.1
 futures==3.3.0
+gunicorn==19.10.0
 importlib-metadata==2.1.1
 importlib-resources==3.3.0
 ipaddress==1.0.22
@@ -61,6 +63,7 @@ pluggy==0.13.1
 pprintpp==0.4.0
 prometheus-client==0.9.0
 prompt-toolkit==1.0.18
+psycopg2-binary==2.8.6
 ptyprocess==0.6.0
 py==1.10.0
 py2app==0.7.3
@@ -131,5 +134,6 @@ voila==0.1.18.post1
 wcwidth==0.2.5
 webencodings==0.5.1
 Werkzeug==1.0.1
+whitenoise==5.2.0
 xattr==0.6.4
 zipp==1.2.0
