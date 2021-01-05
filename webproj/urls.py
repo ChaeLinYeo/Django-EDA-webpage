@@ -15,9 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from homepage.views import index
+from homepage import views
 
 urlpatterns = [
-    path('', index), # 127.0.0.1/
+    path('', views.home, name='home'),
+    path('explore_1/', views.explore_1, name='explore_1'),
+    path('establish_2/', views.establish_2, name='establish_2'),
+    path('test_2/', views.test_2, name='test_2'),
+    path('eda_3/', views.eda_3, name='eda_3'),
     path('admin/', admin.site.urls),
 ]
